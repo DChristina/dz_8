@@ -40,8 +40,10 @@ public class Student {
         this.studentSurname = studentSurname;
     }
 
-    public void markTaskAsMadeByStudent (String task,Boolean isDone){
-       statesOfTasks.put(task,isDone);
+     void markTaskAsMadeByStudent (String task,Boolean isDone){
+
+        statesOfTasks.put(task,isDone);
+
     }
 
 }
